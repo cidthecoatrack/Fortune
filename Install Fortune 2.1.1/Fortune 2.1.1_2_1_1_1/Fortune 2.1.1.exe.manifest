@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Fortune 2.1.1.exe" version="2.1.1.1" publicKeyToken="9c89d05df776953e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="images.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Fortune 2.1.1" version="2.1.1.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Fortune 2.1.1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fortune 2.1.1.exe" size="147456">
+      <assemblyIdentity name="Fortune 2.1.1" version="2.1.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>eUMkBr4n21kvWk0sskKQOQC2XUc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Fortune 2.1.1.exe.config" size="74">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XshrqJbLMwJ7FM1jR7BQZyNqypc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images.ico" size="22486">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3gT8SD7AiK091OPKI+BEYsVSh0Y=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Keitaro\Cid the Coatrack" issuerKeyHash="053a602f3fa441c5f15a663c0817f200e7f94350" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>RbF94gEBeN4W1ASnsm1iWUs/LJc=</DigestValue></Reference></SignedInfo><SignatureValue>bT3hzjc4zUOoQmYV0XMFVBPfU1/Ywp9hXb4N02t2QwF/2f77LERyQV/CBT8/8FgaI4haig7a3ekq6f6NUchx8n2STcwjvonHU3j4NVi85VqEMBCw/dv8NABxcNsdB2tGRCqBGjJ5dbXYpuOeP466YVf5e40McdpyNBUUa92pLlU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zI1AWJh3nhmvt5Yp4xLj190d7NI/pvTNf5MyHvb987a+/IUFNrgziqRaPZTU7Wpl9LEMf8hc1WGzo+ovdvIH/NXchJMji8AXt5MNofguoRsXnO0hr84/F1oobt7Tb8HkcglGBks6kvxwHPfaYoqlBIOZ+x9QIz/tQ6J75M07Q4s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="972c3f4b59626db2a704d416de780101e27db145" Description="" Url=""><as:assemblyIdentity name="Fortune 2.1.1.exe" version="2.1.1.1" publicKeyToken="9c89d05df776953e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Keitaro\Cid the Coatrack</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8syCH1c2/SkolWuvYzTqReCLgKc=</DigestValue></Reference></SignedInfo><SignatureValue>cW+ylD7cI8W0dztt+WeeXSOUjzpU0JcgraMSU4uHkhZugIJtw5x3c7rA6exvgjxnbeQn5P/ZnpZ5N9uBb/CqOPCqjdZWyAw7/0H03azBlY3L/9kLWNmSb0u8/z/p9Q4OFHg9GjFxVicl7XFlxKCbmi+gRv6cnM7nr+69Q1Hhq8Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zI1AWJh3nhmvt5Yp4xLj190d7NI/pvTNf5MyHvb987a+/IUFNrgziqRaPZTU7Wpl9LEMf8hc1WGzo+ovdvIH/NXchJMji8AXt5MNofguoRsXnO0hr84/F1oobt7Tb8HkcglGBks6kvxwHPfaYoqlBIOZ+x9QIz/tQ6J75M07Q4s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQoZDY66TF1qRCsEOL4N522zANBgkqhkiG9w0BAQUFADA7MTkwNwYDVQQDHjAASwBlAGkAdABhAHIAbwBcAEMAaQBkACAAdABoAGUAIABDAG8AYQB0AHIAYQBjAGswHhcNMDcxMTEyMDExODA5WhcNMDgxMTExMDcxODA5WjA7MTkwNwYDVQQDHjAASwBlAGkAdABhAHIAbwBcAEMAaQBkACAAdABoAGUAIABDAG8AYQB0AHIAYQBjAGswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMyNQFiYd54Zr7eWKeMS49fdHezSP6b0zX+TMh72/fO2vvyFBTa4M4qkWj2U1O1qZfSxDH/IXNVhs6PqL3byB/zV3ISTI4vAF7eTDaH4LqEbF5ztIa/OPxdaKG7e02/B5HIJRgZLOpL8cBz32mKKpQSDmfsfUCM/7UOie+TNO0OLAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAhxhVrmm9+d9ioxbxfjbOp1B5fwIqKOVgZWMXpytONCk5iYi4XsqmjN5grwQUDuZpCntF8uH+95uC7KcOB4TupfY9g+7YrK4O8I4Zo0cLk6duecOmJjIBSzcgWHVri6akwsjO8AS5HfA/ExDd2skyNWXHtvLK8Uz94n0Tpd9M28Q=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
